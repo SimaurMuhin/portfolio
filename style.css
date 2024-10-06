@@ -1,0 +1,105 @@
+:root{
+--clr-drk:rgb(223, 223, 247);
+--clr-light:#94a3b8;
+--clr-prim:#e11c48 ;
+--bd-drk:#020617;
+--pd-btn:16px;
+}
+body{
+    background-color: var(--bd-drk);
+}
+.hd1{
+    color: var(--clr-drk);
+    font-family: "Qwitcher Grypen", cursive;
+    /* font-weight: 400; */
+}
+
+.ds1{
+    
+    color: var(--clr-light);
+    letter-spacing: 2px;
+    text-decoration:double;
+    word-spacing: 8px;
+    letter-spacing: 6px;
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+}
+
+.btn1{
+    background-color: var(--clr-prim);
+    padding: var(--pd-btn);
+    border-radius:8px ;
+}
+
+.my-div{
+    color: var(--clr-light);
+height: 150px;
+width: 200px;
+overflow: scroll;
+line-height:100%;
+font-family: "Edu AU VIC WA NT Dots", cursive;
+}
+
+.my-img1 {
+    width:50% ;
+    height: 50%;
+
+    /* filter: blur(20px)  */
+/* filter: contrast(300%); */
+filter: grayscale(100%)  !important
+}
+.my-img2{
+    filter: grayscale(0%)  
+}
+
+.box{
+
+    border: 4px solid limegreen;
+    height: 300px;
+    width:400px ;
+    /* padding: 100px; */
+    justify-content:space-between;
+    align-items:center;
+    display: flex;
+    margin: 100px;
+}
+
+.item{
+color: var(--clr-light);
+font-family: "Edu AU VIC WA NT Dots", cursive;
+
+}
+
+.notice{
+    border: 3px solid rgb(145, 189, 183);
+    margin: 30px;
+    height: 700px;
+    width: 800px;
+    background-color: lightgreen;
+    position: ;
+}
+.notice-st{
+border: 2px solid navajowhite;
+background-color:#88888a;
+font-family: "Edu AU VIC WA NT Dots", cursive;
+position: sticky;
+
+}
+.notice-re{
+    border:3px solid black ;
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+background-color: cadetblue;
+position: relative;
+
+}
+.notice-fix{
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+    background-color: blueviolet;
+    position: fixed;
+
+}
+.notice-ab{
+    border: 3px solid lime;
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+background-color: aquamarine;
+position: absolute;
+}
